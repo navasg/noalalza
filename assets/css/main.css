@@ -85,6 +85,10 @@ html {
   transition: .5s;
 }
 
+.item-contact {
+  display: none;
+}
+
 .navbar-brand {
   padding: 0;
 }
@@ -324,6 +328,15 @@ html {
 
 .count .padding-top-bottom {
   padding-top: 0;
+}
+
+.number-count {
+    transition: .5s ease-in-out;
+    margin: 1.5%;
+    font-size: 50px;
+    vertical-align: middle;
+    color: #252525;
+    font-weight: 600;
 }
 
 /* CALCULATOR */

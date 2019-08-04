@@ -12,6 +12,10 @@
     display: none;
   }
 
+  .item-contact {
+    display: initial;
+  }
+
   .navbar-collapse .btn-principal{
     display: none;
   }
