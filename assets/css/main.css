@@ -68,7 +68,9 @@ html {
 }
 
 /* HEADER */
-
+.logo-responsive {
+  display: none;
+}
 .nav-custom {
   color: #3d4a50!important;
   padding-top: 0;
@@ -530,3 +532,5 @@ footer i {
   color: #13acbc;
   margin-right: .5rem;
 }
+
+

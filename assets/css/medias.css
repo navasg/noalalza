@@ -1,0 +1,77 @@
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  html {
+    font-size: 13px;
+  }
+
+  /* HEADER */
+  .logo-responsive {
+    display: initial;
+  }
+
+  .pre-nav {
+    display: none;
+  }
+
+  .navbar-collapse .btn-principal{
+    display: none;
+  }
+  /* BANNER */
+  .title-banner {
+    font-size: 3rem;
+  }
+
+  /* ABOUT */
+
+  .about .title-section, .frecuent-questions .title-section {
+    text-align: center;
+  }
+
+  .about .title-section::before, .frecuent-questions .title-section::before, .mask-cal .title-section::before {
+    margin: 0 auto;
+  }
+
+  .about .subtitle-section {
+    text-align: center;
+  }
+
+  /* QUESTIONS */
+  .frecuent-questions .title-questions, .tab-pane p {
+    text-align: center;
+  }
+
+  /* FORM */
+
+  form {
+    width: 100%
+  }
+
+  form input {
+    width: 100%!important;
+  }
+
+  /* CALCULATOR */
+
+  .calculation {
+    height: 26rem;
+  }
+
+  .mask-cal .title-section {
+    font-size: 2.5rem;
+    text-align: center
+  }
+/* FRECUENT QUESTIONS */
+
+  .frecuent-questions .title-section {
+    margin-top: 3rem;
+  }
+
+  /* FOOTER */
+
+  footer {
+    text-align: center;
+  }
+
+  .powered {
+    text-align: center;
+  }
+}

@@ -16,15 +16,20 @@ body {
     width: 100%;
     padding-right: 1rem;
     padding-left: 1rem;
-    padding-top: 2.3rem;
+    z-index: 99;
+    padding-top: .5rem;
     padding-bottom: 2.3rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #35322e;
+    background-color: #fff;
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     transition-property: left, visibility;
     font-size: 1.5rem;
+  }
+
+  .btn-nav {
+    display: flex;
   }
 
   .social-nav {
@@ -41,6 +46,13 @@ body {
 
   .navbar-nav {
     align-items: flex-start;
+  }
+
+  .nav-flex {
+    height: 100%;
+  }
+  .nav-flex li {
+    margin: .6rem 0;
   }
 }
 
