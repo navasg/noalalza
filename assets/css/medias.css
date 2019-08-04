@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 0px) and (max-width: 997px) {
   html {
     font-size: 13px;
   }
@@ -46,6 +46,10 @@
   }
 
   form input {
+    width: 100%!important;
+  }
+
+  form input:nth-child(5), form textarea {
     width: 100%!important;
   }
 
