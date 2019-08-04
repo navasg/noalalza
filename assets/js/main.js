@@ -7,3 +7,12 @@ $('.banner-slick').slick({
   cssEase: 'linear',
   autoplay: true,
 });
+
+wow = new WOW(
+  {
+    animateClass: 'animated',
+    mobile: false,
+    offset: 100,
+  }
+);
+wow.init();
